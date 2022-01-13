@@ -5,7 +5,7 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Find Your Videogame Dream Date!</title>
+  <title>PlayDate</title>
 </head>
 <body>
   <div class="container">
@@ -21,27 +21,71 @@
       </div>
       <hr>
       <div class="form-group">
-        <h3>Q1: How do you feel about facial hair?</h3>
+        <h3>Q1: What gender are more attracted to?</h3>
+        <select class="form-select" id="genderType">
+          <option> -- Select One -- </option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <br>
+      <div class="form-group">
+        <h3>Q2: How do you feel about facial hair?</h3>
         <select class="form-select" id="facialHair">
           <option> -- Select One -- </option>
-          <option>The hairier, the better!</option>
-          <option>A mustache looks sophisticated.</option>
-          <option>Below the nose, no hair grows!</option>
+          <option value="moreHairy">The hairier, the better!</option>
+          <option value="lessHairy">Below the nose, no hair grows!</option>
         </select>
     </div>
     <br>
     <div class="form-group">
-      <h3>Q2: What body type do you dig?</h3>
-      <select class="form-select" id="facialHair">
+      <h3>Q3: What body type do you dig?</h3>
+      <select class="form-select" id="bodyType">
         <option> -- Select One -- </option>
-        <option>Bigger the better!</option>
-        <option>Not too big, not too small.</option>
-        <option>I prefer to be the larger and in-charger.</option>
+        <option value="larger">Bigger the better!</option>
+        <option value="smaller">I prefer to be the larger and in-charger.</option>
       </select>
-  </div>
+    </div>
+    <br>
+    <button type="submit" class="btn-dark">Match Me!</button>
     </form>
+    <br>
 
 
+    <div id="match">
+      <div id="marioDiv">
+      <p>You got Mario!</p>
+      <img src="img/mario.jpg">
+      </div>
+      <div id="dkDiv">
+        <p>You got Donkey Kong!</p>
+        <img src="img/donkeykong.jpg">
+      </div>
+      <div id="masterChief">
+        <p>You got Master Chief!</p>
+        <img src="img/masterchief.png">
+      </div>
+      <div id="linkZelda">
+        <p>You got Link!</p>
+        <img src="img/link.jpg">
+      </div>
+      <div id="dixieKong">
+        <p>You got Dixie Kong!</p>
+        <img src="img/dixie.png">
+      </div>
+      <div id="jigglyPuff">
+        <p>You got Jigglypuff!</p>
+        <img src="img/jigglypuff.png">
+      </div>
+      <div id="princessPeach">
+        <p>You got Princess Peach</p>
+        <img src="img/peach.jpg">
+      </div>
+      <div id="mistyWilliams">
+        <p>You got Misty!</p>
+        <img src="img/misty.jpg">
+      </div>
+    </div>
 
   </div>
 </body>

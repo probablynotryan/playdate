@@ -1,3 +1,26 @@
 input {
   max-width: 30%;
 }
+.container {
+  border: solid black;
+  background-color: white;
+  margin-top: 30px;
+}
+body {
+  background-image: url(../img/background.png);
+  background-repeat: repeat;
+  /* background-attachment: fixed;
+  background-size: cover; */
+}
+
+.btn {
+  display: block;
+}
+
+#marioDiv, #dkDiv, #masterChief, #linkZelda, #dixieKong, #jigglyPuff, #princessPeach, #mistyWilliams {
+  display: none;
+}
+
+/* #match {
+  display: none;
+} */
