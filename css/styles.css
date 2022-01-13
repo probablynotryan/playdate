@@ -5,6 +5,7 @@ input {
   border: solid black;
   background-color: white;
   margin-top: 30px;
+  padding: 20px;
 }
 body {
   background-image: url(../img/background.png);
@@ -13,12 +14,12 @@ body {
   background-size: cover; */
 }
 
-.btn {
-  display: block;
-}
-
 #marioDiv, #dkDiv, #masterChief, #linkZelda, #dixieKong, #jigglyPuff, #princessPeach, #mistyWilliams {
   display: none;
+}
+
+button {
+  background-color: white;
 }
 
 /* #match {
